@@ -12,14 +12,18 @@
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
 </head>
 <body>
-  <header class="push-1-2 wrapper">
+  <ul class="skip-links">
+    <li><a href="#main">Jump to main content</a></li>
+    <li><a href="#nav">Jump to navigation</a></li>
+  </ul>
+  <header class="push-1-2 wrapper" id="banner" role="banner">
     <div class="grid grid-middle">
       <div class="unit xs-1 s-1 m-1 l-1-4 xl-1-4 text-center header-left pad-t-1-2">
         <i lang="ja" class="yotta bold not-italic">枯山水</i>
         <h1 class="kilo push-0">Rock Gardens</h1>
       </div>
       <div class="unit xs-1 s-1 m-1 l-3-4 xl-3-4 header-right text-center pad-t-1-4">
-        <nav>
+        <nav id="nav" role="navigation">
           <ul class="gutter mega list-group-inline push-1-8 pad-top">
             <li class="push-r-1-4 gutter-1-8"><a href="#">Viewing</a></li>
             <li class="push-r-1-4 gutter-1-8"><a href="#">Gravel</a></li>
@@ -29,7 +33,7 @@
       </div>
     </div>
   </header>
-  <main>
+  <main id="main" role="main" tabindex="0">
     <div class="embed embed-5by1 push-2">
       <img class="img-flex push-2 embed-item" src="images/banner.svg" alt="banner">
     </div>
