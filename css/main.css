@@ -1,0 +1,13 @@
+
+html {
+  font-family: "Noto-sans", sans-serif;
+}
+
+a {
+  color: #005e76;
+}
+
+.btn {
+  border-radius: 8px;
+  border: solid, 2px, #8bc9d9;
+}
